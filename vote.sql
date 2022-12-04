@@ -45,7 +45,7 @@ CREATE TABLE `candidate` (
 
 INSERT INTO `candidate` (`candidate_id`, `position`, `firstname`, `lastname`, `year_level`, `gender`, `img`, `party`) VALUES
 (1, 'President', 'Arif', 'Uddin', '3rd year', 'Male', 'upload/163.jpg', 'DBM'),
-(2, 'Vice President', 'Jeswanth', 'Chowdary', '3rd year', 'Male', 'upload/2.jpg', 'PHP'),
+(2, 'Vice President', 'Jeswanth', 'Chowdary', '3rd year', 'Male', 'upload/2.jpg', 'PHP');
 
 
 -- --------------------------------------------------------
@@ -213,10 +213,10 @@ INSERT INTO `voters` (`voters_id`, `id_number`, `firstname`, `lastname`, `gender
 (116, 'WT16', 'L', 'Siva', 'Male', 'Bvoc', '3rd Year', 'Unvoted', 'Active', '2022-12-03', '205423'),
 (117, 'WT17', 'Sk', 'Masthansharif','Male', 'Bvoc', '3rd Year', 'Unvoted', 'Active', '2022-12-03', '205424'),
 (118, 'WT18', 'Ch', 'Vineeth', 'Male', 'Bvoc', '3rd Year', 'Unvoted', 'Active', '2022-12-03', '205425'),
-(119, 'WT19', 'Sk', 'Zakirhussain', 'Male', 'Bvoc', '3rd Year', 'Unvoted', 'Active', '2022-12-03, '205427'),
+(119, 'WT19', 'Sk', 'Zakirhussain', 'Male', 'Bvoc', '3rd Year', 'Unvoted', 'Active', '2022-12-03', '205427'),
 (120, 'WT20', 'S', 'Jason', 'Male', 'Bvoc', '3rd Year', 'Unvoted', 'Active', '2022-12-03', '205429'),
 (121, 'WT21', 'M', 'Manoj', 'Male', 'Bvoc', '3rd Year', 'Unvoted', 'Active', '2022-12-03', '205430'),
-(122, 'WT22', 'M', 'Snehitha', 'Female', 'Bvoc', '3rd Year', 'Unvoted', 'Active', '2022-12-03, '205431'),
+(122, 'WT22', 'M', 'Snehitha', 'Female', 'Bvoc', '3rd Year', 'Unvoted', 'Active', '2022-12-03', '205431'),
 (123, 'WT23', 'K', 'Manasa', 'Female', 'Bvoc', '3rd Year', 'Unvoted', 'Active', '2022-12-03', '205432'),
 (124, 'WT24', 'G', 'Omkar', 'Male', 'Bvoc', '3rd Year', 'Unvoted', 'Active', '2022-12-03', '205433'),
 (125, 'WT25', 'M', 'Suresh', 'Male', 'Bvoc', '3rd Year', 'Unvoted', 'Active', '2022-12-03', '205434'),
@@ -232,6 +232,7 @@ INSERT INTO `voters` (`voters_id`, `id_number`, `firstname`, `lastname`, `gender
 (135, 'WT35', 'N', 'Pratap', 'Male', 'Bvoc', '3rd Year', 'Unvoted', 'Active', '2022-12-03', '205448'),
 (136, 'WT36', 'T', 'Kishore', 'Male', 'Bvoc', '3rd Year', 'Unvoted', 'Active', '2022-12-03', '205449'),
 (137, 'WT37', 'Sk', 'Hafeeza', 'Male', 'Bvoc', '3rd Year', 'Unvoted', 'Active', '2022-12-03', '205450');
+
 -- --------------------------------------------------------
 
 --
